@@ -1,4 +1,4 @@
-# euler-problems
+# Euler Problems
 
 ![1/705](https://img.shields.io/badge/Solved-1%20%2F%20705-red)
 
