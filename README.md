@@ -5,13 +5,12 @@
 Contains Haskell solutions for [Project Euler](https://projecteuler.net)
 problems.
 
-### Test
+## Testing
 
 ```
-$ stack ghci src/Problem1.hs
+$ stack test
 
+$ stack ghci src/Problem1.hs
 *Problem1> solve 10
 23
-
-$ stack test
 ```
