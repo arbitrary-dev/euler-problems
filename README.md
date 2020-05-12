@@ -10,7 +10,7 @@ problems.
 ```
 $ stack ghci src/Problem1.hs
 
-*Problem1> problem1 10
+*Problem1> solve 10
 23
 
 $ stack test

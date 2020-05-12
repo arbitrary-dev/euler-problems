@@ -3,8 +3,6 @@ module Problem1Spec (spec) where
 import Test.Hspec
 import Problem1
 
-spec :: Spec
-spec =
-  describe "Problem 1" $ do
-    it "finds the sum of 3 & 5 multiples below 10" $ do
-      problem1 10 `shouldBe` 23
+spec = describe "Multiples of 3 and 5" $ do
+  it "finds the sum of 3 & 5 multiples below 10" $ do
+    solve 10 `shouldBe` 23
