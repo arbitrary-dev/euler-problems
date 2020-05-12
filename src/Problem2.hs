@@ -1,9 +1,9 @@
 module Problem2 (solve) where
 
-{- Even Fibonacci numbers
- -
- - Finds the sum of even Fibonacci numbers, that doesn't exceed provided one.
- -}
+-- | Even Fibonacci numbers
+--
+-- Finds the sum of even Fibonacci numbers,
+-- that doesn't exceed the provided one.
 solve :: Int -> Int
 solve limit = sum $ takeWhile (<= limit) $ filter even fibs
 
