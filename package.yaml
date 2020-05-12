@@ -26,8 +26,8 @@ library:
   source-dirs: src
 
 tests:
-  problem-1:
-    main:                Problem1Spec.hs
+  spec:
+    main:                Spec.hs
     source-dirs:         test
     ghc-options:
     - -threaded
