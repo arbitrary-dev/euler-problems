@@ -1,6 +1,6 @@
 # Euler Problems
 
-![6/705](https://img.shields.io/badge/Solved-6%20%2F%20705-red)
+![7/705](https://img.shields.io/badge/Solved-7%20%2F%20705-red)
 
 Contains Haskell solutions for [Project Euler](https://projecteuler.net)
 problems.
